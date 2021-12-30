@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+body{
+  background-color: #0E1223;
+}
+
+.App {
+  
+  text-align: center;
+  margin: 20% auto;
+  height: 100vh;
+}
+ 
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin:auto;
+  color: white;
+  font-family: Rubik;
+  font-style: normal;
+}
+.profile{
+  background-color: #1C204B;
+  height: 203px;
+  border-radius: 1rem;
+}
+
+.upper-pro{
+  background: #5747EA;
+  height:70%;
+  border-radius: 1rem;
+  display: flex;
+}
+
+.up-one{
+  display: flex;
+  justify-content: center;  
+  align-items: center; 
+  width:35%;
+}
+
+.up-one>img{
+  
+}
+
+.up-two{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  text-align: left;
+  
+}
+
+.up-two>p{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal; 
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0;
+  
+}
+
+.up-two>h1{
+ font-family: Rubik;
+ font-style: normal;
+ font-weight: 300;
+ font-size: 24px;
+ line-height: 28px;
+ margin: 0;
+
+}
+
+
+
+.lower-pro{
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lower-pro>a{
+ 
+  font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+}
+
+
+
+
+
+.pro-img{
+  width: 64px;
+  height: 64px;
+  background: #D8D8D8;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  
+}
+
+.timelog{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cards{
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 1rem; 
+  margin-bottom:24px;
+  
+    
+}
+
+
+.cards>img{
+  position: relative;
+  z-index: 0;
+  width: 78px;
+  height: 78px;
+ 
+}
+
+.c-lower{
+  height: 122px;
+  position: relative;
+  z-index: 1;
+  background-color: #1C204B;
+  border-radius: 1rem;
+}
+
+.orange{
+  
+  background: #FF8B64 url("img/icon-work.svg") right top
+    no-repeat;
+  background-position: 92% -1rem;  
+}
+
+.blue{
+  
+  background: #55C2E6 url("img/icon-play.svg") right top
+    no-repeat;
+    background-position: 92% -1rem;   
+}
+
+.pink{
+  
+  background: #FF5E7D url("img/icon-study.svg") right top
+    no-repeat;
+}
+
+.green{
+  
+  background: #4BCF82 url("img/icon-exercise.svg") right top
+    no-repeat;
+    background-position: 92% -1rem;   
+}
+
+.voilet{
+  
+  background:#7335D2 url("img/icon-social.svg") right top
+    no-repeat;
+    background-position: 92% -1rem; 
+}
+
+.yellow{
+  
+  background:#F1C75B url("img/icon-self-care.svg") right top
+    no-repeat;
+    background-position: 92% -1rem; 
+}
+
+
+.card-content{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.card-header{
+  display: flex;
+  width: 80%;
+  height: 30%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.card-content>h1{
+  font-family: Rubik;
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 38px;
+margin-top:2%;
+}
+
+.card-content>p{
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  
+  text-align: right;
+  
+  color: #BBC0FF;
+
+}
+
+@media only screen and (min-width : 1000px) {
+  body {
+    background-color: lightblue;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .timelog {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+
+
